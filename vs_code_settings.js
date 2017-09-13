@@ -4,7 +4,7 @@
     // EDITOR SETTINGS
 
     // Misc visual tweaks
-    "editor.lineHeight": 28,
+    "editor.lineHeight": 22,
     
     // Font Settings
     "editor.fontFamily": "Fira Code",
