@@ -1,0 +1,48 @@
+{
+    // Sidebar stuff
+    "bold_folder_labels": true,
+    "sidebar_font_big": true,
+    "sidebar_large": true,
+
+    // Cursor stuff
+    "caret_extra_bottom": 2,
+    "caret_extra_top": 2,
+    "caret_extra_width": 3,
+    "caret_style": "phase",
+    "wide_caret": true,
+
+    // Indentation
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+
+    // Font and theme settings
+    "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+    "theme": "Cobalt2.sublime-theme",
+    "font_face": "Fira Code",
+    "font_size": 13,
+
+    // Miscellaneous visual tweaks
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+
+    // 80 char ruler
+    "rulers": [80],
+
+    // Folding stuff
+    "fade_fold_buttons": false,
+
+
+    "ignored_packages":
+    [
+        "CSS",
+        "JavaScript",
+        "Vintage"
+    ]
+}
