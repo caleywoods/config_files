@@ -6,6 +6,11 @@
     // Misc visual tweaks
     "editor.lineHeight": 22,
 
+    // Get the hover tf out of the way when trying to click
+    // something above (now below the tooltip)
+    "editor.hover.sticky": false,
+    "editor.hover.delay": 500,
+
     // Font Settings
     "editor.fontFamily": "Dank Mono",
     "editor.fontSize": 15,
@@ -17,11 +22,9 @@
     "editor.detectIndentation": false,
     "editor.renderIndentGuides": true,
 
-    "editor.hover.delay": 0,
-
     // Settings for Trailing Spaces Plugin
     "trailing-spaces.highlightCurrentLine": false,
-    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.trimOnSave": false,
     "trailing-spaces.liveMatching": true,
 
     // Editor version of trim trailing \w+ on save
@@ -39,8 +42,8 @@
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "phase",
 
-    // Show ruler at 80 cols
-    "editor.rulers": [80],
+    // Show ruler at 140 cols
+    "editor.rulers": [140],
 
     // Disable wrapping
     "editor.wordWrap": "off",
@@ -96,7 +99,6 @@
 
     // Neither of these are installed by default
     "workbench.colorTheme": "One Monokai",
-    "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
         "editorIndentGuide.activeBackground": "#ff0000"
     },
@@ -108,9 +110,7 @@
     "workbench.activityBar.visible": false,
     "window.menuBarVisibility": "default",
 
-    "vsicons.dontShowNewVersionMessage": true,
     "extensions.ignoreRecommendations": false,
-    "vsicons.projectDetection.autoReload": true,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
     // Extension Settings
@@ -164,4 +164,20 @@
 
     // Bracketpair colorizer
     "bracketPairColorizer.forceIterationColorCycle": true,
+    // ELM Settings
+
+    // Runs elm-format on the file every time it is saved
+    "elm.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vsicons.projectDetection.autoReload": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }
